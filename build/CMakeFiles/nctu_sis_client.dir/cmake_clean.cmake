@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/nctu_sis_client.dir/src/app/App.cpp.o"
+  "CMakeFiles/nctu_sis_client.dir/src/app/App.cpp.o.d"
+  "CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.o"
+  "CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.o.d"
+  "CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.o"
+  "CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.o.d"
+  "CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.o"
+  "CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.o.d"
+  "CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.o"
+  "CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.o.d"
+  "CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.o"
+  "CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.o.d"
+  "CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.o"
+  "CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.o.d"
+  "CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.o"
+  "CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.o.d"
+  "CMakeFiles/nctu_sis_client.dir/src/main.cpp.o"
+  "CMakeFiles/nctu_sis_client.dir/src/main.cpp.o.d"
+  "CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.o"
+  "CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.o.d"
+  "CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.o"
+  "CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.o.d"
+  "CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.o"
+  "CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.o.d"
+  "CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.o"
+  "CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.o.d"
+  "CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.o"
+  "CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.o.d"
+  "CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.o"
+  "CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.o.d"
+  "CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.o"
+  "CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.o.d"
+  "CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.o"
+  "CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.o.d"
+  "nctu_sis_client"
+  "nctu_sis_client.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/nctu_sis_client.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

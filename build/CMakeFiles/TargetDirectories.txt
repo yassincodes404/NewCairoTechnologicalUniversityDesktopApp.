@@ -1,0 +1,3 @@
+/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles/nctu_sis_client.dir
+/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles/edit_cache.dir
+/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles/rebuild_cache.dir
