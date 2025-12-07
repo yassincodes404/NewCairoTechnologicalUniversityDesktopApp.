@@ -2,6 +2,7 @@
 #include "../ScreenType.hpp"
 #include <sstream>
 #include <iomanip>
+#include <map>
 
 StudentDetailsScreen::StudentDetailsScreen(App& app)
     : app(app),
@@ -18,6 +19,16 @@ StudentDetailsScreen::StudentDetailsScreen(App& app)
                 student = s.value();
                 enrollments = app.studentService.getStudentCoursesWithGrades(student.id);
             }
+        }
+    }
+
+    // Preload PMD flags for this student's enrollments
+    PmdRepository pmdRepo(app.database);
+    for (const auto& ce : enrollments) {
+        const Enrollment& e = ce.second;
+        auto records = pmdRepo.getByEnrollment(e.id);
+        if (!records.empty()) {
+            pmdEnrollmentIds.insert(e.id);
         }
     }
 }
@@ -43,9 +54,33 @@ void StudentDetailsScreen::draw() {
 
     // Student info section
     const char* title = "Student Details";
-    DrawTextEx(GetFontDefault(), title, {250, 100}, 32, 2, WHITE);
+    DrawTextEx(GetFontDefault(), title, {250, 70}, 32, 2, WHITE);
 
-    float y = 160.0f;
+    // Profile picture placeholder (circle with initials)
+    float avatarX = 80.0f;
+    float avatarY = 120.0f;
+    float avatarRadius = 40.0f;
+    DrawCircle((int)avatarX, (int)avatarY, avatarRadius, (Color){60, 80, 120, 255});
+    DrawCircleLines((int)avatarX, (int)avatarY, avatarRadius, (Color){150, 180, 255, 255});
+
+    std::string initials;
+    if (!student.firstName.empty()) {
+        initials += (char)std::toupper(student.firstName[0]);
+    }
+    if (!student.lastName.empty()) {
+        initials += (char)std::toupper(student.lastName[0]);
+    }
+    if (!initials.empty()) {
+        int fontSize = 28;
+        int textWidth = MeasureText(initials.c_str(), fontSize);
+        DrawText(initials.c_str(),
+                 (int)(avatarX - textWidth / 2),
+                 (int)(avatarY - fontSize / 2),
+                 fontSize,
+                 WHITE);
+    }
+
+    float y = 120.0f;
     
     // Personal Information Section
     DrawTextEx(GetFontDefault(), "Personal Information", {250.0f, y}, 22, 2, (Color){100, 150, 255, 255});
@@ -110,6 +145,23 @@ void StudentDetailsScreen::draw() {
     y += 25;
     DrawText(("Level: " + std::to_string(student.level)).c_str(), 250, (int)y, 18, WHITE);
     y += 25;
+
+    // Level structure overview (Foundation/Core/Professional/Graduation)
+    std::string levelStage;
+    if (student.level == 1) {
+        levelStage = "Stage: Foundation Level (Level 1)";
+    } else if (student.level == 2) {
+        levelStage = "Stage: Core Technical Level (Level 2)";
+    } else if (student.level == 3) {
+        levelStage = "Stage: Professional / Advanced Level (Level 3)";
+    } else if (student.level == 4) {
+        levelStage = "Stage: Graduation Level (Level 4)";
+    }
+    if (!levelStage.empty()) {
+        DrawText(levelStage.c_str(), 250, (int)y, 18, LIGHTGRAY);
+        y += 25;
+    }
+
     if (!student.entryType.empty()) {
         DrawText(("Entry Type: " + student.entryType).c_str(), 250, (int)y, 18, LIGHTGRAY);
         y += 25;
@@ -161,41 +213,111 @@ void StudentDetailsScreen::draw() {
         }
     }
 
-    // Enrollments section
-    y += 20;
-    DrawTextEx(GetFontDefault(), "Enrolled Courses:", {250.0f, y}, 24, 2, WHITE);
-    y += 40;
+    // Group enrollments by academic term (Year + Semester)
+    if (!enrollments.empty()) {
+        y += 20;
+        DrawTextEx(GetFontDefault(), "Academic Record by Term:", {250.0f, y}, 24, 2, WHITE);
+        y += 40;
 
-    if (enrollments.empty()) {
-        DrawText("No enrollments found", 250, (int)y, 18, GRAY);
-    } else {
-        // Header
-        DrawText("Course Code", 250, (int)y, 18, LIGHTGRAY);
-        DrawText("Title", 400, (int)y, 18, LIGHTGRAY);
-        DrawText("Semester", 650, (int)y, 18, LIGHTGRAY);
-        DrawText("Year", 750, (int)y, 18, LIGHTGRAY);
-        DrawText("Grade", 800, (int)y, 18, LIGHTGRAY);
-        y += 30;
-
-        // Draw line
-        DrawLine(250, (int)y - 5, 900, (int)y - 5, GRAY);
-
-        // Rows
-        for (const auto& [course, enrollment] : enrollments) {
-            DrawText(course.courseCode.c_str(), 250, (int)y, 18, WHITE);
-            DrawText(course.title.c_str(), 400, (int)y, 18, WHITE);
-            DrawText(enrollment.semester.c_str(), 650, (int)y, 18, WHITE);
-            DrawText(std::to_string(enrollment.year).c_str(), 750, (int)y, 18, WHITE);
-            
-            if (enrollment.grade.has_value()) {
-                std::stringstream ss;
-                ss << std::fixed << std::setprecision(1) << enrollment.grade.value();
-                DrawText(ss.str().c_str(), 800, (int)y, 18, GREEN);
-            } else {
-                DrawText("N/A", 800, (int)y, 18, GRAY);
-            }
-            y += 30;
+        // Build groups
+        std::map<std::string, std::vector<std::pair<Course, Enrollment>>> termGroups;
+        for (const auto& ce : enrollments) {
+            const Course& course = ce.first;
+            const Enrollment& enrollment = ce.second;
+            std::stringstream key;
+            key << enrollment.year << " - " << enrollment.semester;
+            termGroups[key.str()].push_back(ce);
         }
+
+        for (const auto& entry : termGroups) {
+            const std::string& termLabel = entry.first;
+            const auto& termEnrollments = entry.second;
+
+            // Term header
+            DrawText(termLabel.c_str(), 250, (int)y, 20, (Color){200, 200, 255, 255});
+
+            // Compute term GPA
+            float termPoints = 0.0f;
+            int termCredits = 0;
+            for (const auto& ce : termEnrollments) {
+                const Course& course = ce.first;
+                const Enrollment& enrollment = ce.second;
+                if (enrollment.grade.has_value()) {
+                    float grade = enrollment.grade.value();
+                    float points = 0.0f;
+                    if (grade >= 90) points = 4.0f;
+                    else if (grade >= 80) points = 3.0f;
+                    else if (grade >= 70) points = 2.0f;
+                    else if (grade >= 60) points = 1.0f;
+                    termPoints += points * course.credits;
+                    termCredits += course.credits;
+                }
+            }
+
+            if (termCredits > 0) {
+                float termGpa = termPoints / termCredits;
+                std::stringstream ss;
+                ss << std::fixed << std::setprecision(2) << "Term GPA: " << termGpa
+                   << "  | Credits: " << termCredits;
+                DrawText(ss.str().c_str(), 450, (int)y, 18, LIGHTGRAY);
+            }
+
+            y += 30;
+
+            // Header row
+            DrawText("Course Code", 250, (int)y, 18, LIGHTGRAY);
+            DrawText("Title",       380, (int)y, 18, LIGHTGRAY);
+            DrawText("A1",         640, (int)y, 18, LIGHTGRAY);
+            DrawText("A2",         690, (int)y, 18, LIGHTGRAY);
+            DrawText("Final",      740, (int)y, 18, LIGHTGRAY);
+            y += 25;
+
+            DrawLine(250, (int)y - 5, 880, (int)y - 5, GRAY);
+
+            // Rows for this term
+            for (const auto& ce : termEnrollments) {
+                const Course& course = ce.first;
+                const Enrollment& enrollment = ce.second;
+
+                DrawText(course.courseCode.c_str(), 250, (int)y, 18, WHITE);
+                DrawText(course.title.c_str(),       380, (int)y, 18, WHITE);
+
+                // Assignment 1
+                if (enrollment.assignment1.has_value()) {
+                    std::stringstream ssA1;
+                    ssA1 << std::fixed << std::setprecision(1) << enrollment.assignment1.value();
+                    DrawText(ssA1.str().c_str(), 640, (int)y, 18, LIGHTGRAY);
+                } else {
+                    DrawText("-", 640, (int)y, 18, GRAY);
+                }
+
+                // Assignment 2
+                if (enrollment.assignment2.has_value()) {
+                    std::stringstream ssA2;
+                    ssA2 << std::fixed << std::setprecision(1) << enrollment.assignment2.value();
+                    DrawText(ssA2.str().c_str(), 690, (int)y, 18, LIGHTGRAY);
+                } else {
+                    DrawText("-", 690, (int)y, 18, GRAY);
+                }
+
+                // Final grade
+                if (enrollment.grade.has_value()) {
+                    std::stringstream ss;
+                    ss << std::fixed << std::setprecision(1) << enrollment.grade.value();
+                    DrawText(ss.str().c_str(), 740, (int)y, 18, GREEN);
+                } else {
+                    DrawText("N/A", 740, (int)y, 18, GRAY);
+                }
+
+                y += 25;
+            }
+
+            y += 20;
+        }
+    } else {
+        // No enrollments at all
+        y += 20;
+        DrawText("No academic records found for this student.", 250, (int)y, 18, GRAY);
     }
 }
 

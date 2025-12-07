@@ -16,9 +16,9 @@ public:
     
     void draw();
     
-    // Get selected row index (if mouse clicked)
+    // Get selected row index (if mouse or keyboard selection)
     int getSelectedRow() const { return selectedRow; }
-    void update(); // Call this to handle mouse selection
+    void update(); // Call this to handle mouse selection, scrolling, and keyboard navigation
     
     void setColumnWidths(const std::vector<float>& widths);
     void setHeaderColor(Color color) { headerColor = color; }
@@ -35,6 +35,7 @@ private:
     std::vector<float> columnWidths;
     
     int selectedRow;
+    int firstVisibleRow;
     Color headerColor;
     Color rowColor;
     Color selectedRowColor;

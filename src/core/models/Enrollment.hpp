@@ -10,7 +10,9 @@ struct Enrollment {
     int courseId;
     std::string semester;
     int year;
-    std::optional<float> grade; // null if not graded yet
+    std::optional<float> assignment1; // Assignment 1 mark (nullable)
+    std::optional<float> assignment2; // Assignment 2 mark (nullable)
+    std::optional<float> grade;       // Final grade (nullable)
 };
 
 #endif // ENROLLMENT_HPP

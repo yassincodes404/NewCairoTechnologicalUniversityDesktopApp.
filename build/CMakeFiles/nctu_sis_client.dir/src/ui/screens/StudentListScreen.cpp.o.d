@@ -119,6 +119,7 @@ CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.o: \
  /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
+ /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../widgets/TextInput.hpp \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/App.hpp \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../ui/Screen.hpp \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../ui/ScreenType.hpp \
@@ -155,6 +156,8 @@ CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.o: \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/repositories/EnrollmentRepository.hpp \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/repositories/../models/Enrollment.hpp \
  /usr/include/c++/13/utility /usr/include/c++/13/bits/stl_relops.h \
+ /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/repositories/ProgramRepository.hpp \
+ /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/repositories/../models/Program.hpp \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/services/AuthService.hpp \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/services/../models/User.hpp \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/services/../Database.hpp \
@@ -166,6 +169,9 @@ CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.o: \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/services/../repositories/EnrollmentRepository.hpp \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/services/CourseService.hpp \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/services/../repositories/CourseRepository.hpp \
+ /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/services/ProgramService.hpp \
+ /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/services/../models/Program.hpp \
+ /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/services/../repositories/ProgramRepository.hpp \
  /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
  /usr/include/c++/13/bits/align.h \

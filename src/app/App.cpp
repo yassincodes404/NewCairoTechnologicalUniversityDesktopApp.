@@ -4,6 +4,7 @@
 #include "../ui/screens/StudentListScreen.hpp"
 #include "../ui/screens/StudentDetailsScreen.hpp"
 #include "../ui/screens/CourseListScreen.hpp"
+#include "../ui/screens/ProgramViewScreen.hpp"
 #include <iostream>
 
 App::App()
@@ -11,9 +12,11 @@ App::App()
       studentRepository(database),
       courseRepository(database),
       enrollmentRepository(database),
+      programRepository(database),
       authService(database),
       studentService(studentRepository, enrollmentRepository),
       courseService(courseRepository),
+      programService(programRepository),
       currentScreen(ScreenType::Login),
       activeScreen(nullptr) {
 }
@@ -96,6 +99,9 @@ void App::switchScreen(ScreenType type) {
             break;
         case ScreenType::CourseList:
             activeScreen = std::make_unique<CourseListScreen>(*this);
+            break;
+        case ScreenType::ProgramView:
+            activeScreen = std::make_unique<ProgramViewScreen>(*this);
             break;
         case ScreenType::EnrollmentList:
             // TODO: Implement EnrollmentListScreen

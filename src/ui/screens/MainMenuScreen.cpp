@@ -3,18 +3,24 @@
 
 MainMenuScreen::MainMenuScreen(App& app)
     : app(app),
-      studentsButton(400, 250, 300, 50, "Students"),
-      coursesButton(400, 320, 300, 50, "Courses"),
-      quitButton(400, 390, 300, 50, "Quit") {
+      studentsButton(400, 230, 300, 50, "Students"),
+      programsButton(400, 300, 300, 50, "Programs & Curricula"),
+      coursesButton(400, 370, 300, 50, "Courses"),
+      quitButton(400, 440, 300, 50, "Quit") {
 }
 
 void MainMenuScreen::handleEvent() {
     studentsButton.update();
+    programsButton.update();
     coursesButton.update();
     quitButton.update();
 
     if (studentsButton.isClicked()) {
         app.switchScreen(ScreenType::StudentList);
+    }
+
+    if (programsButton.isClicked()) {
+        app.switchScreen(ScreenType::ProgramView);
     }
 
     if (coursesButton.isClicked()) {
@@ -38,6 +44,7 @@ void MainMenuScreen::draw() {
                36, 2, WHITE);
 
     studentsButton.draw();
+    programsButton.draw();
     coursesButton.draw();
     quitButton.draw();
 }

@@ -7,6 +7,7 @@ enum class ScreenType {
     StudentList,
     StudentDetails,
     CourseList,
+    ProgramView,
     EnrollmentList
 };
 

@@ -27,14 +27,26 @@ set(SOURCES
     src/core/repositories/StudentRepository.cpp
     src/core/repositories/CourseRepository.cpp
     src/core/repositories/EnrollmentRepository.cpp
+    src/core/repositories/ProgramRepository.cpp
+    src/core/repositories/GradeComponentRepository.cpp
+    src/core/repositories/PmdRepository.cpp
+    src/core/repositories/RafehRepository.cpp
+    src/core/repositories/TranscriptRepository.cpp
+    src/core/repositories/AuditLogRepository.cpp
     src/core/services/AuthService.cpp
     src/core/services/StudentService.cpp
     src/core/services/CourseService.cpp
+    src/core/services/ProgramService.cpp
+    src/core/services/EnrollmentService.cpp
+    src/core/services/PmdService.cpp
+    src/core/services/RafehService.cpp
+    src/core/services/TranscriptService.cpp
     src/ui/screens/LoginScreen.cpp
     src/ui/screens/MainMenuScreen.cpp
     src/ui/screens/StudentListScreen.cpp
     src/ui/screens/StudentDetailsScreen.cpp
     src/ui/screens/CourseListScreen.cpp
+    src/ui/screens/ProgramViewScreen.cpp
     src/ui/widgets/Button.cpp
     src/ui/widgets/TextInput.cpp
     src/ui/widgets/SimpleTable.cpp

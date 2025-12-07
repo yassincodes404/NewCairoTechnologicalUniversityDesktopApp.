@@ -15,6 +15,7 @@ public:
 private:
     App& app;
     Button studentsButton;
+    Button programsButton;
     Button coursesButton;
     Button quitButton;
 };

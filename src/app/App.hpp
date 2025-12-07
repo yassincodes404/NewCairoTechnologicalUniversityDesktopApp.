@@ -9,9 +9,11 @@
 #include "../core/repositories/StudentRepository.hpp"
 #include "../core/repositories/CourseRepository.hpp"
 #include "../core/repositories/EnrollmentRepository.hpp"
+#include "../core/repositories/ProgramRepository.hpp"
 #include "../core/services/AuthService.hpp"
 #include "../core/services/StudentService.hpp"
 #include "../core/services/CourseService.hpp"
+#include "../core/services/ProgramService.hpp"
 #include <memory>
 #include <optional>
 
@@ -32,9 +34,11 @@ public:
     StudentRepository studentRepository;
     CourseRepository courseRepository;
     EnrollmentRepository enrollmentRepository;
+    ProgramRepository programRepository;
     AuthService authService;
     StudentService studentService;
     CourseService courseService;
+    ProgramService programService;
 
     std::optional<User> currentUser;
     std::optional<Student> selectedStudent;

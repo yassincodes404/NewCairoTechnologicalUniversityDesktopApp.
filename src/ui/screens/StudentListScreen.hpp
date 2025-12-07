@@ -3,6 +3,7 @@
 
 #include "../Screen.hpp"
 #include "../widgets/Button.hpp"
+#include "../widgets/TextInput.hpp"
 #include "../../app/App.hpp"
 #include "../../core/models/Student.hpp"
 #include <vector>
@@ -16,9 +17,12 @@ public:
 
 private:
     App& app;
+    std::vector<Student> allStudents;
     std::vector<Student> students;
     int selectedIndex;
+    int firstVisibleIndex;
     Button backButton;
+    TextInput searchInput;
     float scrollY;
 };
 

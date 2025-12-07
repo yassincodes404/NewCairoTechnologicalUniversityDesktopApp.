@@ -4,6 +4,7 @@
 #include "../Screen.hpp"
 #include "../widgets/Button.hpp"
 #include "../widgets/SimpleTable.hpp"
+#include "../widgets/TextInput.hpp"
 #include "../../app/App.hpp"
 #include "../../core/models/Course.hpp"
 #include <vector>
@@ -17,9 +18,12 @@ public:
 
 private:
     App& app;
+    std::vector<Course> allCourses;
     std::vector<Course> courses;
     SimpleTable courseTable;
     Button backButton;
+    TextInput searchInput;
+    std::string lastQuery;
     int selectedIndex;
 };
 

@@ -7,8 +7,10 @@
 #include "../../core/models/Student.hpp"
 #include "../../core/models/Course.hpp"
 #include "../../core/models/Enrollment.hpp"
+#include "../../core/repositories/PmdRepository.hpp"
 #include <vector>
 #include <utility>
+#include <set>
 
 class StudentDetailsScreen : public Screen {
 public:
@@ -21,6 +23,7 @@ private:
     App& app;
     Student student;
     std::vector<std::pair<Course, Enrollment>> enrollments;
+    std::set<int> pmdEnrollmentIds;
     Button backButton;
 };
 
