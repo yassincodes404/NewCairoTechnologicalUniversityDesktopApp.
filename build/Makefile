@@ -177,6 +177,30 @@ src/core/Database.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.s
 .PHONY : src/core/Database.cpp.s
 
+src/core/repositories/AuditLogRepository.o: src/core/repositories/AuditLogRepository.cpp.o
+.PHONY : src/core/repositories/AuditLogRepository.o
+
+# target to build an object file
+src/core/repositories/AuditLogRepository.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/repositories/AuditLogRepository.cpp.o
+.PHONY : src/core/repositories/AuditLogRepository.cpp.o
+
+src/core/repositories/AuditLogRepository.i: src/core/repositories/AuditLogRepository.cpp.i
+.PHONY : src/core/repositories/AuditLogRepository.i
+
+# target to preprocess a source file
+src/core/repositories/AuditLogRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/repositories/AuditLogRepository.cpp.i
+.PHONY : src/core/repositories/AuditLogRepository.cpp.i
+
+src/core/repositories/AuditLogRepository.s: src/core/repositories/AuditLogRepository.cpp.s
+.PHONY : src/core/repositories/AuditLogRepository.s
+
+# target to generate assembly for a file
+src/core/repositories/AuditLogRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/repositories/AuditLogRepository.cpp.s
+.PHONY : src/core/repositories/AuditLogRepository.cpp.s
+
 src/core/repositories/CourseRepository.o: src/core/repositories/CourseRepository.cpp.o
 .PHONY : src/core/repositories/CourseRepository.o
 
@@ -225,6 +249,102 @@ src/core/repositories/EnrollmentRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.s
 .PHONY : src/core/repositories/EnrollmentRepository.cpp.s
 
+src/core/repositories/GradeComponentRepository.o: src/core/repositories/GradeComponentRepository.cpp.o
+.PHONY : src/core/repositories/GradeComponentRepository.o
+
+# target to build an object file
+src/core/repositories/GradeComponentRepository.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/repositories/GradeComponentRepository.cpp.o
+.PHONY : src/core/repositories/GradeComponentRepository.cpp.o
+
+src/core/repositories/GradeComponentRepository.i: src/core/repositories/GradeComponentRepository.cpp.i
+.PHONY : src/core/repositories/GradeComponentRepository.i
+
+# target to preprocess a source file
+src/core/repositories/GradeComponentRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/repositories/GradeComponentRepository.cpp.i
+.PHONY : src/core/repositories/GradeComponentRepository.cpp.i
+
+src/core/repositories/GradeComponentRepository.s: src/core/repositories/GradeComponentRepository.cpp.s
+.PHONY : src/core/repositories/GradeComponentRepository.s
+
+# target to generate assembly for a file
+src/core/repositories/GradeComponentRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/repositories/GradeComponentRepository.cpp.s
+.PHONY : src/core/repositories/GradeComponentRepository.cpp.s
+
+src/core/repositories/PmdRepository.o: src/core/repositories/PmdRepository.cpp.o
+.PHONY : src/core/repositories/PmdRepository.o
+
+# target to build an object file
+src/core/repositories/PmdRepository.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/repositories/PmdRepository.cpp.o
+.PHONY : src/core/repositories/PmdRepository.cpp.o
+
+src/core/repositories/PmdRepository.i: src/core/repositories/PmdRepository.cpp.i
+.PHONY : src/core/repositories/PmdRepository.i
+
+# target to preprocess a source file
+src/core/repositories/PmdRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/repositories/PmdRepository.cpp.i
+.PHONY : src/core/repositories/PmdRepository.cpp.i
+
+src/core/repositories/PmdRepository.s: src/core/repositories/PmdRepository.cpp.s
+.PHONY : src/core/repositories/PmdRepository.s
+
+# target to generate assembly for a file
+src/core/repositories/PmdRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/repositories/PmdRepository.cpp.s
+.PHONY : src/core/repositories/PmdRepository.cpp.s
+
+src/core/repositories/ProgramRepository.o: src/core/repositories/ProgramRepository.cpp.o
+.PHONY : src/core/repositories/ProgramRepository.o
+
+# target to build an object file
+src/core/repositories/ProgramRepository.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/repositories/ProgramRepository.cpp.o
+.PHONY : src/core/repositories/ProgramRepository.cpp.o
+
+src/core/repositories/ProgramRepository.i: src/core/repositories/ProgramRepository.cpp.i
+.PHONY : src/core/repositories/ProgramRepository.i
+
+# target to preprocess a source file
+src/core/repositories/ProgramRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/repositories/ProgramRepository.cpp.i
+.PHONY : src/core/repositories/ProgramRepository.cpp.i
+
+src/core/repositories/ProgramRepository.s: src/core/repositories/ProgramRepository.cpp.s
+.PHONY : src/core/repositories/ProgramRepository.s
+
+# target to generate assembly for a file
+src/core/repositories/ProgramRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/repositories/ProgramRepository.cpp.s
+.PHONY : src/core/repositories/ProgramRepository.cpp.s
+
+src/core/repositories/RafehRepository.o: src/core/repositories/RafehRepository.cpp.o
+.PHONY : src/core/repositories/RafehRepository.o
+
+# target to build an object file
+src/core/repositories/RafehRepository.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/repositories/RafehRepository.cpp.o
+.PHONY : src/core/repositories/RafehRepository.cpp.o
+
+src/core/repositories/RafehRepository.i: src/core/repositories/RafehRepository.cpp.i
+.PHONY : src/core/repositories/RafehRepository.i
+
+# target to preprocess a source file
+src/core/repositories/RafehRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/repositories/RafehRepository.cpp.i
+.PHONY : src/core/repositories/RafehRepository.cpp.i
+
+src/core/repositories/RafehRepository.s: src/core/repositories/RafehRepository.cpp.s
+.PHONY : src/core/repositories/RafehRepository.s
+
+# target to generate assembly for a file
+src/core/repositories/RafehRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/repositories/RafehRepository.cpp.s
+.PHONY : src/core/repositories/RafehRepository.cpp.s
+
 src/core/repositories/StudentRepository.o: src/core/repositories/StudentRepository.cpp.o
 .PHONY : src/core/repositories/StudentRepository.o
 
@@ -248,6 +368,30 @@ src/core/repositories/StudentRepository.s: src/core/repositories/StudentReposito
 src/core/repositories/StudentRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.s
 .PHONY : src/core/repositories/StudentRepository.cpp.s
+
+src/core/repositories/TranscriptRepository.o: src/core/repositories/TranscriptRepository.cpp.o
+.PHONY : src/core/repositories/TranscriptRepository.o
+
+# target to build an object file
+src/core/repositories/TranscriptRepository.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/repositories/TranscriptRepository.cpp.o
+.PHONY : src/core/repositories/TranscriptRepository.cpp.o
+
+src/core/repositories/TranscriptRepository.i: src/core/repositories/TranscriptRepository.cpp.i
+.PHONY : src/core/repositories/TranscriptRepository.i
+
+# target to preprocess a source file
+src/core/repositories/TranscriptRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/repositories/TranscriptRepository.cpp.i
+.PHONY : src/core/repositories/TranscriptRepository.cpp.i
+
+src/core/repositories/TranscriptRepository.s: src/core/repositories/TranscriptRepository.cpp.s
+.PHONY : src/core/repositories/TranscriptRepository.s
+
+# target to generate assembly for a file
+src/core/repositories/TranscriptRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/repositories/TranscriptRepository.cpp.s
+.PHONY : src/core/repositories/TranscriptRepository.cpp.s
 
 src/core/services/AuthService.o: src/core/services/AuthService.cpp.o
 .PHONY : src/core/services/AuthService.o
@@ -297,6 +441,102 @@ src/core/services/CourseService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.s
 .PHONY : src/core/services/CourseService.cpp.s
 
+src/core/services/EnrollmentService.o: src/core/services/EnrollmentService.cpp.o
+.PHONY : src/core/services/EnrollmentService.o
+
+# target to build an object file
+src/core/services/EnrollmentService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/services/EnrollmentService.cpp.o
+.PHONY : src/core/services/EnrollmentService.cpp.o
+
+src/core/services/EnrollmentService.i: src/core/services/EnrollmentService.cpp.i
+.PHONY : src/core/services/EnrollmentService.i
+
+# target to preprocess a source file
+src/core/services/EnrollmentService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/services/EnrollmentService.cpp.i
+.PHONY : src/core/services/EnrollmentService.cpp.i
+
+src/core/services/EnrollmentService.s: src/core/services/EnrollmentService.cpp.s
+.PHONY : src/core/services/EnrollmentService.s
+
+# target to generate assembly for a file
+src/core/services/EnrollmentService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/services/EnrollmentService.cpp.s
+.PHONY : src/core/services/EnrollmentService.cpp.s
+
+src/core/services/PmdService.o: src/core/services/PmdService.cpp.o
+.PHONY : src/core/services/PmdService.o
+
+# target to build an object file
+src/core/services/PmdService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/services/PmdService.cpp.o
+.PHONY : src/core/services/PmdService.cpp.o
+
+src/core/services/PmdService.i: src/core/services/PmdService.cpp.i
+.PHONY : src/core/services/PmdService.i
+
+# target to preprocess a source file
+src/core/services/PmdService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/services/PmdService.cpp.i
+.PHONY : src/core/services/PmdService.cpp.i
+
+src/core/services/PmdService.s: src/core/services/PmdService.cpp.s
+.PHONY : src/core/services/PmdService.s
+
+# target to generate assembly for a file
+src/core/services/PmdService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/services/PmdService.cpp.s
+.PHONY : src/core/services/PmdService.cpp.s
+
+src/core/services/ProgramService.o: src/core/services/ProgramService.cpp.o
+.PHONY : src/core/services/ProgramService.o
+
+# target to build an object file
+src/core/services/ProgramService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/services/ProgramService.cpp.o
+.PHONY : src/core/services/ProgramService.cpp.o
+
+src/core/services/ProgramService.i: src/core/services/ProgramService.cpp.i
+.PHONY : src/core/services/ProgramService.i
+
+# target to preprocess a source file
+src/core/services/ProgramService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/services/ProgramService.cpp.i
+.PHONY : src/core/services/ProgramService.cpp.i
+
+src/core/services/ProgramService.s: src/core/services/ProgramService.cpp.s
+.PHONY : src/core/services/ProgramService.s
+
+# target to generate assembly for a file
+src/core/services/ProgramService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/services/ProgramService.cpp.s
+.PHONY : src/core/services/ProgramService.cpp.s
+
+src/core/services/RafehService.o: src/core/services/RafehService.cpp.o
+.PHONY : src/core/services/RafehService.o
+
+# target to build an object file
+src/core/services/RafehService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/services/RafehService.cpp.o
+.PHONY : src/core/services/RafehService.cpp.o
+
+src/core/services/RafehService.i: src/core/services/RafehService.cpp.i
+.PHONY : src/core/services/RafehService.i
+
+# target to preprocess a source file
+src/core/services/RafehService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/services/RafehService.cpp.i
+.PHONY : src/core/services/RafehService.cpp.i
+
+src/core/services/RafehService.s: src/core/services/RafehService.cpp.s
+.PHONY : src/core/services/RafehService.s
+
+# target to generate assembly for a file
+src/core/services/RafehService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/services/RafehService.cpp.s
+.PHONY : src/core/services/RafehService.cpp.s
+
 src/core/services/StudentService.o: src/core/services/StudentService.cpp.o
 .PHONY : src/core/services/StudentService.o
 
@@ -320,6 +560,30 @@ src/core/services/StudentService.s: src/core/services/StudentService.cpp.s
 src/core/services/StudentService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.s
 .PHONY : src/core/services/StudentService.cpp.s
+
+src/core/services/TranscriptService.o: src/core/services/TranscriptService.cpp.o
+.PHONY : src/core/services/TranscriptService.o
+
+# target to build an object file
+src/core/services/TranscriptService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/services/TranscriptService.cpp.o
+.PHONY : src/core/services/TranscriptService.cpp.o
+
+src/core/services/TranscriptService.i: src/core/services/TranscriptService.cpp.i
+.PHONY : src/core/services/TranscriptService.i
+
+# target to preprocess a source file
+src/core/services/TranscriptService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/services/TranscriptService.cpp.i
+.PHONY : src/core/services/TranscriptService.cpp.i
+
+src/core/services/TranscriptService.s: src/core/services/TranscriptService.cpp.s
+.PHONY : src/core/services/TranscriptService.s
+
+# target to generate assembly for a file
+src/core/services/TranscriptService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/core/services/TranscriptService.cpp.s
+.PHONY : src/core/services/TranscriptService.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -416,6 +680,30 @@ src/ui/screens/MainMenuScreen.s: src/ui/screens/MainMenuScreen.cpp.s
 src/ui/screens/MainMenuScreen.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.s
 .PHONY : src/ui/screens/MainMenuScreen.cpp.s
+
+src/ui/screens/ProgramViewScreen.o: src/ui/screens/ProgramViewScreen.cpp.o
+.PHONY : src/ui/screens/ProgramViewScreen.o
+
+# target to build an object file
+src/ui/screens/ProgramViewScreen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/ui/screens/ProgramViewScreen.cpp.o
+.PHONY : src/ui/screens/ProgramViewScreen.cpp.o
+
+src/ui/screens/ProgramViewScreen.i: src/ui/screens/ProgramViewScreen.cpp.i
+.PHONY : src/ui/screens/ProgramViewScreen.i
+
+# target to preprocess a source file
+src/ui/screens/ProgramViewScreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/ui/screens/ProgramViewScreen.cpp.i
+.PHONY : src/ui/screens/ProgramViewScreen.cpp.i
+
+src/ui/screens/ProgramViewScreen.s: src/ui/screens/ProgramViewScreen.cpp.s
+.PHONY : src/ui/screens/ProgramViewScreen.s
+
+# target to generate assembly for a file
+src/ui/screens/ProgramViewScreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nctu_sis_client.dir/build.make CMakeFiles/nctu_sis_client.dir/src/ui/screens/ProgramViewScreen.cpp.s
+.PHONY : src/ui/screens/ProgramViewScreen.cpp.s
 
 src/ui/screens/StudentDetailsScreen.o: src/ui/screens/StudentDetailsScreen.cpp.o
 .PHONY : src/ui/screens/StudentDetailsScreen.o
@@ -552,24 +840,57 @@ help:
 	@echo "... src/core/Database.o"
 	@echo "... src/core/Database.i"
 	@echo "... src/core/Database.s"
+	@echo "... src/core/repositories/AuditLogRepository.o"
+	@echo "... src/core/repositories/AuditLogRepository.i"
+	@echo "... src/core/repositories/AuditLogRepository.s"
 	@echo "... src/core/repositories/CourseRepository.o"
 	@echo "... src/core/repositories/CourseRepository.i"
 	@echo "... src/core/repositories/CourseRepository.s"
 	@echo "... src/core/repositories/EnrollmentRepository.o"
 	@echo "... src/core/repositories/EnrollmentRepository.i"
 	@echo "... src/core/repositories/EnrollmentRepository.s"
+	@echo "... src/core/repositories/GradeComponentRepository.o"
+	@echo "... src/core/repositories/GradeComponentRepository.i"
+	@echo "... src/core/repositories/GradeComponentRepository.s"
+	@echo "... src/core/repositories/PmdRepository.o"
+	@echo "... src/core/repositories/PmdRepository.i"
+	@echo "... src/core/repositories/PmdRepository.s"
+	@echo "... src/core/repositories/ProgramRepository.o"
+	@echo "... src/core/repositories/ProgramRepository.i"
+	@echo "... src/core/repositories/ProgramRepository.s"
+	@echo "... src/core/repositories/RafehRepository.o"
+	@echo "... src/core/repositories/RafehRepository.i"
+	@echo "... src/core/repositories/RafehRepository.s"
 	@echo "... src/core/repositories/StudentRepository.o"
 	@echo "... src/core/repositories/StudentRepository.i"
 	@echo "... src/core/repositories/StudentRepository.s"
+	@echo "... src/core/repositories/TranscriptRepository.o"
+	@echo "... src/core/repositories/TranscriptRepository.i"
+	@echo "... src/core/repositories/TranscriptRepository.s"
 	@echo "... src/core/services/AuthService.o"
 	@echo "... src/core/services/AuthService.i"
 	@echo "... src/core/services/AuthService.s"
 	@echo "... src/core/services/CourseService.o"
 	@echo "... src/core/services/CourseService.i"
 	@echo "... src/core/services/CourseService.s"
+	@echo "... src/core/services/EnrollmentService.o"
+	@echo "... src/core/services/EnrollmentService.i"
+	@echo "... src/core/services/EnrollmentService.s"
+	@echo "... src/core/services/PmdService.o"
+	@echo "... src/core/services/PmdService.i"
+	@echo "... src/core/services/PmdService.s"
+	@echo "... src/core/services/ProgramService.o"
+	@echo "... src/core/services/ProgramService.i"
+	@echo "... src/core/services/ProgramService.s"
+	@echo "... src/core/services/RafehService.o"
+	@echo "... src/core/services/RafehService.i"
+	@echo "... src/core/services/RafehService.s"
 	@echo "... src/core/services/StudentService.o"
 	@echo "... src/core/services/StudentService.i"
 	@echo "... src/core/services/StudentService.s"
+	@echo "... src/core/services/TranscriptService.o"
+	@echo "... src/core/services/TranscriptService.i"
+	@echo "... src/core/services/TranscriptService.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -582,6 +903,9 @@ help:
 	@echo "... src/ui/screens/MainMenuScreen.o"
 	@echo "... src/ui/screens/MainMenuScreen.i"
 	@echo "... src/ui/screens/MainMenuScreen.s"
+	@echo "... src/ui/screens/ProgramViewScreen.o"
+	@echo "... src/ui/screens/ProgramViewScreen.i"
+	@echo "... src/ui/screens/ProgramViewScreen.s"
 	@echo "... src/ui/screens/StudentDetailsScreen.o"
 	@echo "... src/ui/screens/StudentDetailsScreen.i"
 	@echo "... src/ui/screens/StudentDetailsScreen.s"

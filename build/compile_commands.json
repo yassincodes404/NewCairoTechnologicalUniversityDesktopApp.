@@ -1,0 +1,176 @@
+[
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/main.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/main.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/main.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/app/App.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/app/App.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/app/App.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/app/App.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/Database.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/Database.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/StudentRepository.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/StudentRepository.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/CourseRepository.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/CourseRepository.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/EnrollmentRepository.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/EnrollmentRepository.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/ProgramRepository.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/ProgramRepository.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/ProgramRepository.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/core/repositories/ProgramRepository.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/GradeComponentRepository.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/GradeComponentRepository.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/GradeComponentRepository.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/core/repositories/GradeComponentRepository.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/PmdRepository.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/PmdRepository.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/PmdRepository.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/core/repositories/PmdRepository.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/RafehRepository.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/RafehRepository.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/RafehRepository.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/core/repositories/RafehRepository.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/TranscriptRepository.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/TranscriptRepository.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/TranscriptRepository.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/core/repositories/TranscriptRepository.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/AuditLogRepository.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/AuditLogRepository.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/AuditLogRepository.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/core/repositories/AuditLogRepository.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/AuthService.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/AuthService.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/StudentService.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/StudentService.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/CourseService.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/CourseService.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/core/services/ProgramService.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/ProgramService.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/ProgramService.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/core/services/ProgramService.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/core/services/EnrollmentService.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/EnrollmentService.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/EnrollmentService.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/core/services/EnrollmentService.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/core/services/PmdService.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/PmdService.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/PmdService.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/core/services/PmdService.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/core/services/RafehService.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/RafehService.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/RafehService.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/core/services/RafehService.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/core/services/TranscriptService.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/TranscriptService.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/TranscriptService.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/core/services/TranscriptService.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/LoginScreen.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/LoginScreen.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/MainMenuScreen.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/MainMenuScreen.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/StudentListScreen.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/StudentListScreen.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/StudentDetailsScreen.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/StudentDetailsScreen.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/CourseListScreen.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/CourseListScreen.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/ProgramViewScreen.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/ProgramViewScreen.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/ProgramViewScreen.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/ui/screens/ProgramViewScreen.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/Button.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/Button.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/TextInput.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/TextInput.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.o"
+},
+{
+  "directory": "/home/yassin/WorkSpace/Projects/C++ with Raylib/build",
+  "command": "/usr/bin/clang++-18  -I\"/home/yassin/WorkSpace/Projects/C++ with Raylib/src\" -g -std=gnu++17 -o CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.o -c \"/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/SimpleTable.cpp\"",
+  "file": "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/SimpleTable.cpp",
+  "output": "CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.o"
+}
+]

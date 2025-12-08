@@ -17,11 +17,16 @@ public:
     void setText(const std::string& t) { text = t; }
     void setIsPassword(bool p) { isPassword = p; }
 
+    // Optional maximum length for input to avoid unbounded growth
+    void setMaxLength(size_t max) { maxLength = max; }
+    size_t getMaxLength() const { return maxLength; }
+
 private:
     Rectangle bounds;
     std::string text;
     bool focused;
     bool isPassword;
+    size_t maxLength;
 };
 
 #endif // TEXT_INPUT_HPP

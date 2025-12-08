@@ -73,239 +73,407 @@ CMakeFiles/nctu_sis_client.dir/src/main.cpp.o: CMakeFiles/nctu_sis_client.dir/fl
 CMakeFiles/nctu_sis_client.dir/src/main.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/main.cpp
 CMakeFiles/nctu_sis_client.dir/src/main.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/main.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/main.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/main.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/main.cpp"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/main.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/main.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/main.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/main.cpp"
 
 CMakeFiles/nctu_sis_client.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/main.cpp" > CMakeFiles/nctu_sis_client.dir/src/main.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/main.cpp" > CMakeFiles/nctu_sis_client.dir/src/main.cpp.i
 
 CMakeFiles/nctu_sis_client.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/main.cpp" -o CMakeFiles/nctu_sis_client.dir/src/main.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/main.cpp" -o CMakeFiles/nctu_sis_client.dir/src/main.cpp.s
 
 CMakeFiles/nctu_sis_client.dir/src/app/App.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
 CMakeFiles/nctu_sis_client.dir/src/app/App.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/app/App.cpp
 CMakeFiles/nctu_sis_client.dir/src/app/App.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/app/App.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/app/App.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/app/App.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/app/App.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/app/App.cpp"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/app/App.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/app/App.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/app/App.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/app/App.cpp"
 
 CMakeFiles/nctu_sis_client.dir/src/app/App.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/app/App.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/app/App.cpp" > CMakeFiles/nctu_sis_client.dir/src/app/App.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/app/App.cpp" > CMakeFiles/nctu_sis_client.dir/src/app/App.cpp.i
 
 CMakeFiles/nctu_sis_client.dir/src/app/App.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/app/App.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/app/App.cpp" -o CMakeFiles/nctu_sis_client.dir/src/app/App.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/app/App.cpp" -o CMakeFiles/nctu_sis_client.dir/src/app/App.cpp.s
 
 CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
 CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/core/Database.cpp
 CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/Database.cpp"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/Database.cpp"
 
 CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/Database.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/Database.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.i
 
 CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/Database.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/Database.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.s
 
 CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
 CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/core/repositories/StudentRepository.cpp
 CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/StudentRepository.cpp"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/StudentRepository.cpp"
 
 CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/StudentRepository.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/StudentRepository.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.i
 
 CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/StudentRepository.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/StudentRepository.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.s
 
 CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
 CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/core/repositories/CourseRepository.cpp
 CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/CourseRepository.cpp"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/CourseRepository.cpp"
 
 CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/CourseRepository.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/CourseRepository.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.i
 
 CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/CourseRepository.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/CourseRepository.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.s
 
 CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
 CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/core/repositories/EnrollmentRepository.cpp
 CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/EnrollmentRepository.cpp"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/EnrollmentRepository.cpp"
 
 CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/EnrollmentRepository.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/EnrollmentRepository.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.i
 
 CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/EnrollmentRepository.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/EnrollmentRepository.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.s
+
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/ProgramRepository.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/ProgramRepository.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/core/repositories/ProgramRepository.cpp
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/ProgramRepository.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/core/repositories/ProgramRepository.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/repositories/ProgramRepository.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/repositories/ProgramRepository.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/ProgramRepository.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/ProgramRepository.cpp"
+
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/ProgramRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/core/repositories/ProgramRepository.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/ProgramRepository.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/repositories/ProgramRepository.cpp.i
+
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/ProgramRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/core/repositories/ProgramRepository.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/ProgramRepository.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/ProgramRepository.cpp.s
+
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/GradeComponentRepository.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/GradeComponentRepository.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/core/repositories/GradeComponentRepository.cpp
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/GradeComponentRepository.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/core/repositories/GradeComponentRepository.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/repositories/GradeComponentRepository.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/repositories/GradeComponentRepository.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/GradeComponentRepository.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/GradeComponentRepository.cpp"
+
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/GradeComponentRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/core/repositories/GradeComponentRepository.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/GradeComponentRepository.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/repositories/GradeComponentRepository.cpp.i
+
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/GradeComponentRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/core/repositories/GradeComponentRepository.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/GradeComponentRepository.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/GradeComponentRepository.cpp.s
+
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/PmdRepository.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/PmdRepository.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/core/repositories/PmdRepository.cpp
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/PmdRepository.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/core/repositories/PmdRepository.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/repositories/PmdRepository.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/repositories/PmdRepository.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/PmdRepository.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/PmdRepository.cpp"
+
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/PmdRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/core/repositories/PmdRepository.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/PmdRepository.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/repositories/PmdRepository.cpp.i
+
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/PmdRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/core/repositories/PmdRepository.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/PmdRepository.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/PmdRepository.cpp.s
+
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/RafehRepository.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/RafehRepository.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/core/repositories/RafehRepository.cpp
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/RafehRepository.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/core/repositories/RafehRepository.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/repositories/RafehRepository.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/repositories/RafehRepository.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/RafehRepository.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/RafehRepository.cpp"
+
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/RafehRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/core/repositories/RafehRepository.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/RafehRepository.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/repositories/RafehRepository.cpp.i
+
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/RafehRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/core/repositories/RafehRepository.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/RafehRepository.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/RafehRepository.cpp.s
+
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/TranscriptRepository.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/TranscriptRepository.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/core/repositories/TranscriptRepository.cpp
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/TranscriptRepository.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/core/repositories/TranscriptRepository.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/repositories/TranscriptRepository.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/repositories/TranscriptRepository.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/TranscriptRepository.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/TranscriptRepository.cpp"
+
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/TranscriptRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/core/repositories/TranscriptRepository.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/TranscriptRepository.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/repositories/TranscriptRepository.cpp.i
+
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/TranscriptRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/core/repositories/TranscriptRepository.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/TranscriptRepository.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/TranscriptRepository.cpp.s
+
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/AuditLogRepository.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/AuditLogRepository.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/core/repositories/AuditLogRepository.cpp
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/AuditLogRepository.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/core/repositories/AuditLogRepository.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/repositories/AuditLogRepository.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/repositories/AuditLogRepository.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/AuditLogRepository.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/AuditLogRepository.cpp"
+
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/AuditLogRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/core/repositories/AuditLogRepository.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/AuditLogRepository.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/repositories/AuditLogRepository.cpp.i
+
+CMakeFiles/nctu_sis_client.dir/src/core/repositories/AuditLogRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/core/repositories/AuditLogRepository.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/repositories/AuditLogRepository.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/repositories/AuditLogRepository.cpp.s
 
 CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
 CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/core/services/AuthService.cpp
 CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/AuthService.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/AuthService.cpp"
 
 CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/AuthService.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/AuthService.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.i
 
 CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/AuthService.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/AuthService.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.s
 
 CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
 CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/core/services/StudentService.cpp
 CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/StudentService.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/StudentService.cpp"
 
 CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/StudentService.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/StudentService.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.i
 
 CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/StudentService.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/StudentService.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.s
 
 CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
 CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/core/services/CourseService.cpp
 CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/CourseService.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/CourseService.cpp"
 
 CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/CourseService.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/CourseService.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.i
 
 CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/CourseService.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/CourseService.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.s
+
+CMakeFiles/nctu_sis_client.dir/src/core/services/ProgramService.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
+CMakeFiles/nctu_sis_client.dir/src/core/services/ProgramService.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/core/services/ProgramService.cpp
+CMakeFiles/nctu_sis_client.dir/src/core/services/ProgramService.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/core/services/ProgramService.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/services/ProgramService.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/services/ProgramService.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/services/ProgramService.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/ProgramService.cpp"
+
+CMakeFiles/nctu_sis_client.dir/src/core/services/ProgramService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/core/services/ProgramService.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/ProgramService.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/services/ProgramService.cpp.i
+
+CMakeFiles/nctu_sis_client.dir/src/core/services/ProgramService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/core/services/ProgramService.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/ProgramService.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/services/ProgramService.cpp.s
+
+CMakeFiles/nctu_sis_client.dir/src/core/services/EnrollmentService.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
+CMakeFiles/nctu_sis_client.dir/src/core/services/EnrollmentService.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/core/services/EnrollmentService.cpp
+CMakeFiles/nctu_sis_client.dir/src/core/services/EnrollmentService.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/core/services/EnrollmentService.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/services/EnrollmentService.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/services/EnrollmentService.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/services/EnrollmentService.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/EnrollmentService.cpp"
+
+CMakeFiles/nctu_sis_client.dir/src/core/services/EnrollmentService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/core/services/EnrollmentService.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/EnrollmentService.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/services/EnrollmentService.cpp.i
+
+CMakeFiles/nctu_sis_client.dir/src/core/services/EnrollmentService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/core/services/EnrollmentService.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/EnrollmentService.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/services/EnrollmentService.cpp.s
+
+CMakeFiles/nctu_sis_client.dir/src/core/services/PmdService.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
+CMakeFiles/nctu_sis_client.dir/src/core/services/PmdService.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/core/services/PmdService.cpp
+CMakeFiles/nctu_sis_client.dir/src/core/services/PmdService.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/core/services/PmdService.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/services/PmdService.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/services/PmdService.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/services/PmdService.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/PmdService.cpp"
+
+CMakeFiles/nctu_sis_client.dir/src/core/services/PmdService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/core/services/PmdService.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/PmdService.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/services/PmdService.cpp.i
+
+CMakeFiles/nctu_sis_client.dir/src/core/services/PmdService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/core/services/PmdService.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/PmdService.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/services/PmdService.cpp.s
+
+CMakeFiles/nctu_sis_client.dir/src/core/services/RafehService.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
+CMakeFiles/nctu_sis_client.dir/src/core/services/RafehService.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/core/services/RafehService.cpp
+CMakeFiles/nctu_sis_client.dir/src/core/services/RafehService.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/core/services/RafehService.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/services/RafehService.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/services/RafehService.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/services/RafehService.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/RafehService.cpp"
+
+CMakeFiles/nctu_sis_client.dir/src/core/services/RafehService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/core/services/RafehService.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/RafehService.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/services/RafehService.cpp.i
+
+CMakeFiles/nctu_sis_client.dir/src/core/services/RafehService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/core/services/RafehService.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/RafehService.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/services/RafehService.cpp.s
+
+CMakeFiles/nctu_sis_client.dir/src/core/services/TranscriptService.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
+CMakeFiles/nctu_sis_client.dir/src/core/services/TranscriptService.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/core/services/TranscriptService.cpp
+CMakeFiles/nctu_sis_client.dir/src/core/services/TranscriptService.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/core/services/TranscriptService.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/core/services/TranscriptService.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/core/services/TranscriptService.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/core/services/TranscriptService.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/TranscriptService.cpp"
+
+CMakeFiles/nctu_sis_client.dir/src/core/services/TranscriptService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/core/services/TranscriptService.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/TranscriptService.cpp" > CMakeFiles/nctu_sis_client.dir/src/core/services/TranscriptService.cpp.i
+
+CMakeFiles/nctu_sis_client.dir/src/core/services/TranscriptService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/core/services/TranscriptService.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/core/services/TranscriptService.cpp" -o CMakeFiles/nctu_sis_client.dir/src/core/services/TranscriptService.cpp.s
 
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/LoginScreen.cpp
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/LoginScreen.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/LoginScreen.cpp"
 
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/LoginScreen.cpp" > CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/LoginScreen.cpp" > CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.i
 
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/LoginScreen.cpp" -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/LoginScreen.cpp" -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.s
 
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/MainMenuScreen.cpp
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/MainMenuScreen.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/MainMenuScreen.cpp"
 
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/MainMenuScreen.cpp" > CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/MainMenuScreen.cpp" > CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.i
 
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/MainMenuScreen.cpp" -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/MainMenuScreen.cpp" -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.s
 
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/StudentListScreen.cpp
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/StudentListScreen.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/StudentListScreen.cpp"
 
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/StudentListScreen.cpp" > CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/StudentListScreen.cpp" > CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.i
 
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/StudentListScreen.cpp" -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/StudentListScreen.cpp" -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.s
 
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/StudentDetailsScreen.cpp
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/StudentDetailsScreen.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/StudentDetailsScreen.cpp"
 
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/StudentDetailsScreen.cpp" > CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/StudentDetailsScreen.cpp" > CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.i
 
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/StudentDetailsScreen.cpp" -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/StudentDetailsScreen.cpp" -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.s
 
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/CourseListScreen.cpp
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/CourseListScreen.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/CourseListScreen.cpp"
 
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/CourseListScreen.cpp" > CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/CourseListScreen.cpp" > CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.i
 
 CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/CourseListScreen.cpp" -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/CourseListScreen.cpp" -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.s
+
+CMakeFiles/nctu_sis_client.dir/src/ui/screens/ProgramViewScreen.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
+CMakeFiles/nctu_sis_client.dir/src/ui/screens/ProgramViewScreen.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/ProgramViewScreen.cpp
+CMakeFiles/nctu_sis_client.dir/src/ui/screens/ProgramViewScreen.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/ui/screens/ProgramViewScreen.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/ui/screens/ProgramViewScreen.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/ui/screens/ProgramViewScreen.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/ProgramViewScreen.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/ProgramViewScreen.cpp"
+
+CMakeFiles/nctu_sis_client.dir/src/ui/screens/ProgramViewScreen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/ui/screens/ProgramViewScreen.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/ProgramViewScreen.cpp" > CMakeFiles/nctu_sis_client.dir/src/ui/screens/ProgramViewScreen.cpp.i
+
+CMakeFiles/nctu_sis_client.dir/src/ui/screens/ProgramViewScreen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/ui/screens/ProgramViewScreen.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/screens/ProgramViewScreen.cpp" -o CMakeFiles/nctu_sis_client.dir/src/ui/screens/ProgramViewScreen.cpp.s
 
 CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
 CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/widgets/Button.cpp
 CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/Button.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/Button.cpp"
 
 CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/Button.cpp" > CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/Button.cpp" > CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.i
 
 CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/Button.cpp" -o CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/Button.cpp" -o CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.s
 
 CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
 CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/widgets/TextInput.cpp
 CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/TextInput.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/TextInput.cpp"
 
 CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/TextInput.cpp" > CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/TextInput.cpp" > CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.i
 
 CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/TextInput.cpp" -o CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/TextInput.cpp" -o CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.s
 
 CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.o: CMakeFiles/nctu_sis_client.dir/flags.make
 CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.o: /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/widgets/SimpleTable.cpp
 CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.o: CMakeFiles/nctu_sis_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/SimpleTable.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.o -MF CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.o.d -o CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.o -c "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/SimpleTable.cpp"
 
 CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/SimpleTable.cpp" > CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/SimpleTable.cpp" > CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.i
 
 CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/SimpleTable.cpp" -o CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/yassin/WorkSpace/Projects/C++ with Raylib/src/ui/widgets/SimpleTable.cpp" -o CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.s
 
 # Object files for target nctu_sis_client
 nctu_sis_client_OBJECTS = \
@@ -315,14 +483,26 @@ nctu_sis_client_OBJECTS = \
 "CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.o" \
 "CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.o" \
 "CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.o" \
+"CMakeFiles/nctu_sis_client.dir/src/core/repositories/ProgramRepository.cpp.o" \
+"CMakeFiles/nctu_sis_client.dir/src/core/repositories/GradeComponentRepository.cpp.o" \
+"CMakeFiles/nctu_sis_client.dir/src/core/repositories/PmdRepository.cpp.o" \
+"CMakeFiles/nctu_sis_client.dir/src/core/repositories/RafehRepository.cpp.o" \
+"CMakeFiles/nctu_sis_client.dir/src/core/repositories/TranscriptRepository.cpp.o" \
+"CMakeFiles/nctu_sis_client.dir/src/core/repositories/AuditLogRepository.cpp.o" \
 "CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.o" \
 "CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.o" \
 "CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.o" \
+"CMakeFiles/nctu_sis_client.dir/src/core/services/ProgramService.cpp.o" \
+"CMakeFiles/nctu_sis_client.dir/src/core/services/EnrollmentService.cpp.o" \
+"CMakeFiles/nctu_sis_client.dir/src/core/services/PmdService.cpp.o" \
+"CMakeFiles/nctu_sis_client.dir/src/core/services/RafehService.cpp.o" \
+"CMakeFiles/nctu_sis_client.dir/src/core/services/TranscriptService.cpp.o" \
 "CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.o" \
 "CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.o" \
 "CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.o" \
 "CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.o" \
 "CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.o" \
+"CMakeFiles/nctu_sis_client.dir/src/ui/screens/ProgramViewScreen.cpp.o" \
 "CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.o" \
 "CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.o" \
 "CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.o"
@@ -336,14 +516,26 @@ nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/core/Database.cpp.o
 nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/core/repositories/StudentRepository.cpp.o
 nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/core/repositories/CourseRepository.cpp.o
 nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/core/repositories/EnrollmentRepository.cpp.o
+nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/core/repositories/ProgramRepository.cpp.o
+nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/core/repositories/GradeComponentRepository.cpp.o
+nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/core/repositories/PmdRepository.cpp.o
+nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/core/repositories/RafehRepository.cpp.o
+nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/core/repositories/TranscriptRepository.cpp.o
+nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/core/repositories/AuditLogRepository.cpp.o
 nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/core/services/AuthService.cpp.o
 nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/core/services/StudentService.cpp.o
 nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/core/services/CourseService.cpp.o
+nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/core/services/ProgramService.cpp.o
+nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/core/services/EnrollmentService.cpp.o
+nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/core/services/PmdService.cpp.o
+nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/core/services/RafehService.cpp.o
+nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/core/services/TranscriptService.cpp.o
 nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/ui/screens/LoginScreen.cpp.o
 nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/ui/screens/MainMenuScreen.cpp.o
 nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentListScreen.cpp.o
 nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.o
 nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/ui/screens/CourseListScreen.cpp.o
+nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/ui/screens/ProgramViewScreen.cpp.o
 nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/ui/widgets/Button.cpp.o
 nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/ui/widgets/TextInput.cpp.o
 nctu_sis_client: CMakeFiles/nctu_sis_client.dir/src/ui/widgets/SimpleTable.cpp.o
@@ -351,7 +543,7 @@ nctu_sis_client: CMakeFiles/nctu_sis_client.dir/build.make
 nctu_sis_client: /usr/local/lib/libraylib.so
 nctu_sis_client: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 nctu_sis_client: CMakeFiles/nctu_sis_client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable nctu_sis_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/yassin/WorkSpace/Projects/C++ with Raylib/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable nctu_sis_client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nctu_sis_client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

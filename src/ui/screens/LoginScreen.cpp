@@ -3,12 +3,28 @@
 #include "../ScreenType.hpp"
 #include <iostream>
 
+namespace {
+std::string trim(const std::string& s) {
+    size_t start = 0;
+    while (start < s.size() && (s[start] == ' ' || s[start] == '\t')) {
+        ++start;
+    }
+    size_t end = s.size();
+    while (end > start && (s[end - 1] == ' ' || s[end - 1] == '\t')) {
+        --end;
+    }
+    return s.substr(start, end - start);
+}
+}
+
 LoginScreen::LoginScreen(App& app)
     : app(app),
       usernameInput(400, 250, 300, 40),
       passwordInput(400, 310, 300, 40),
       loginButton(400, 380, 300, 50, "Login"),
       errorMessage("") {
+    usernameInput.setMaxLength(64);
+    passwordInput.setMaxLength(64);
     passwordInput.setIsPassword(true);
 }
 
@@ -18,7 +34,7 @@ void LoginScreen::handleEvent() {
     loginButton.update();
 
     if (loginButton.isClicked() || IsKeyPressed(KEY_ENTER)) {
-        std::string username = usernameInput.getText();
+        std::string username = trim(usernameInput.getText());
         std::string password = passwordInput.getText();
 
         if (username.empty() || password.empty()) {

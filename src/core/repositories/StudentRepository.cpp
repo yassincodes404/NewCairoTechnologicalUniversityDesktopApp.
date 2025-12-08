@@ -1,6 +1,20 @@
 #include "StudentRepository.hpp"
 #include <sstream>
 
+namespace {
+std::string escapeSql(const std::string& value) {
+    std::string escaped;
+    escaped.reserve(value.size());
+    for (char c : value) {
+        escaped.push_back(c);
+        if (c == '\'') {
+            escaped.push_back('\'');
+        }
+    }
+    return escaped;
+}
+}
+
 std::vector<Student> StudentRepository::getAll() {
     std::vector<Student> students;
     std::string sql = "SELECT id, student_code, first_name, middle_name, last_name, national_id, passport_no, birth_date, nationality, gender, address, phone, email, college, program, level, entry_type, previous_university, enrollment_date, academic_status, credits_completed, cgpa FROM students;";
@@ -29,7 +43,7 @@ std::optional<Student> StudentRepository::getById(int id) {
 std::optional<Student> StudentRepository::getByStudentCode(const std::string& code) {
     std::optional<Student> result;
     std::stringstream sql;
-    sql << "SELECT id, student_code, first_name, middle_name, last_name, national_id, passport_no, birth_date, nationality, gender, address, phone, email, college, program, level, entry_type, previous_university, enrollment_date, academic_status, credits_completed, cgpa FROM students WHERE student_code = '" << code << "';";
+    sql << "SELECT id, student_code, first_name, middle_name, last_name, national_id, passport_no, birth_date, nationality, gender, address, phone, email, college, program, level, entry_type, previous_university, enrollment_date, academic_status, credits_completed, cgpa FROM students WHERE student_code = '" << escapeSql(code) << "';";
 
     database.executeQuery(sql.str(), [&result, this](void*, int argc, char** argv, char** colNames) -> int {
         result = rowToStudent(argc, argv, colNames);
@@ -42,25 +56,25 @@ std::optional<Student> StudentRepository::getByStudentCode(const std::string& co
 bool StudentRepository::insert(const Student& student) {
     std::stringstream sql;
     sql << "INSERT INTO students (student_code, first_name, middle_name, last_name, national_id, passport_no, birth_date, nationality, gender, address, phone, email, college, program, level, entry_type, previous_university, enrollment_date, academic_status, credits_completed, cgpa) VALUES ("
-        << "'" << student.studentCode << "', "
-        << "'" << student.firstName << "', "
-        << "'" << (student.middleName.empty() ? "" : student.middleName) << "', "
-        << "'" << student.lastName << "', "
-        << "'" << (student.nationalId.empty() ? "" : student.nationalId) << "', "
-        << "'" << (student.passportNo.empty() ? "" : student.passportNo) << "', "
-        << "'" << (student.birthDate.empty() ? "" : student.birthDate) << "', "
-        << "'" << (student.nationality.empty() ? "Egyptian" : student.nationality) << "', "
-        << "'" << (student.gender.empty() ? "" : student.gender) << "', "
-        << "'" << (student.address.empty() ? "" : student.address) << "', "
-        << "'" << (student.phone.empty() ? "" : student.phone) << "', "
-        << "'" << (student.email.empty() ? "" : student.email) << "', "
-        << "'" << (student.college.empty() ? "" : student.college) << "', "
-        << "'" << student.program << "', "
+        << "'" << escapeSql(student.studentCode) << "', "
+        << "'" << escapeSql(student.firstName) << "', "
+        << "'" << escapeSql(student.middleName.empty() ? "" : student.middleName) << "', "
+        << "'" << escapeSql(student.lastName) << "', "
+        << "'" << escapeSql(student.nationalId.empty() ? "" : student.nationalId) << "', "
+        << "'" << escapeSql(student.passportNo.empty() ? "" : student.passportNo) << "', "
+        << "'" << escapeSql(student.birthDate.empty() ? "" : student.birthDate) << "', "
+        << "'" << escapeSql(student.nationality.empty() ? "Egyptian" : student.nationality) << "', "
+        << "'" << escapeSql(student.gender.empty() ? "" : student.gender) << "', "
+        << "'" << escapeSql(student.address.empty() ? "" : student.address) << "', "
+        << "'" << escapeSql(student.phone.empty() ? "" : student.phone) << "', "
+        << "'" << escapeSql(student.email.empty() ? "" : student.email) << "', "
+        << "'" << escapeSql(student.college.empty() ? "" : student.college) << "', "
+        << "'" << escapeSql(student.program) << "', "
         << student.level << ", "
-        << "'" << (student.entryType.empty() ? "fresh" : student.entryType) << "', "
-        << "'" << (student.previousUniversity.empty() ? "" : student.previousUniversity) << "', "
-        << "'" << (student.enrollmentDate.empty() ? "" : student.enrollmentDate) << "', "
-        << "'" << (student.academicStatus.empty() ? "active" : student.academicStatus) << "', "
+        << "'" << escapeSql(student.entryType.empty() ? "fresh" : student.entryType) << "', "
+        << "'" << escapeSql(student.previousUniversity.empty() ? "" : student.previousUniversity) << "', "
+        << "'" << escapeSql(student.enrollmentDate.empty() ? "" : student.enrollmentDate) << "', "
+        << "'" << escapeSql(student.academicStatus.empty() ? "active" : student.academicStatus) << "', "
         << student.creditsCompleted << ", "
         << student.cgpa << ");";
 
@@ -70,25 +84,25 @@ bool StudentRepository::insert(const Student& student) {
 bool StudentRepository::update(const Student& student) {
     std::stringstream sql;
     sql << "UPDATE students SET "
-        << "student_code = '" << student.studentCode << "', "
-        << "first_name = '" << student.firstName << "', "
-        << "middle_name = '" << student.middleName << "', "
-        << "last_name = '" << student.lastName << "', "
-        << "national_id = '" << student.nationalId << "', "
-        << "passport_no = '" << student.passportNo << "', "
-        << "birth_date = '" << student.birthDate << "', "
-        << "nationality = '" << student.nationality << "', "
-        << "gender = '" << student.gender << "', "
-        << "address = '" << student.address << "', "
-        << "phone = '" << student.phone << "', "
-        << "email = '" << student.email << "', "
-        << "college = '" << student.college << "', "
-        << "program = '" << student.program << "', "
+        << "student_code = '" << escapeSql(student.studentCode) << "', "
+        << "first_name = '" << escapeSql(student.firstName) << "', "
+        << "middle_name = '" << escapeSql(student.middleName) << "', "
+        << "last_name = '" << escapeSql(student.lastName) << "', "
+        << "national_id = '" << escapeSql(student.nationalId) << "', "
+        << "passport_no = '" << escapeSql(student.passportNo) << "', "
+        << "birth_date = '" << escapeSql(student.birthDate) << "', "
+        << "nationality = '" << escapeSql(student.nationality) << "', "
+        << "gender = '" << escapeSql(student.gender) << "', "
+        << "address = '" << escapeSql(student.address) << "', "
+        << "phone = '" << escapeSql(student.phone) << "', "
+        << "email = '" << escapeSql(student.email) << "', "
+        << "college = '" << escapeSql(student.college) << "', "
+        << "program = '" << escapeSql(student.program) << "', "
         << "level = " << student.level << ", "
-        << "entry_type = '" << student.entryType << "', "
-        << "previous_university = '" << student.previousUniversity << "', "
-        << "enrollment_date = '" << student.enrollmentDate << "', "
-        << "academic_status = '" << student.academicStatus << "', "
+        << "entry_type = '" << escapeSql(student.entryType) << "', "
+        << "previous_university = '" << escapeSql(student.previousUniversity) << "', "
+        << "enrollment_date = '" << escapeSql(student.enrollmentDate) << "', "
+        << "academic_status = '" << escapeSql(student.academicStatus) << "', "
         << "credits_completed = " << student.creditsCompleted << ", "
         << "cgpa = " << student.cgpa << " "
         << "WHERE id = " << student.id << ";";
