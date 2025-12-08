@@ -155,8 +155,6 @@ CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.o: \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/repositories/EnrollmentRepository.hpp \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/repositories/../models/Enrollment.hpp \
  /usr/include/c++/13/utility /usr/include/c++/13/bits/stl_relops.h \
- /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/repositories/ProgramRepository.hpp \
- /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/repositories/../models/Program.hpp \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/services/AuthService.hpp \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/services/../models/User.hpp \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/services/../Database.hpp \
@@ -168,9 +166,6 @@ CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.o: \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/services/../repositories/EnrollmentRepository.hpp \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/services/CourseService.hpp \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/services/../repositories/CourseRepository.hpp \
- /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/services/ProgramService.hpp \
- /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/services/../models/Program.hpp \
- /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../app/../core/services/../repositories/ProgramRepository.hpp \
  /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
  /usr/include/c++/13/bits/align.h \
@@ -207,12 +202,6 @@ CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.o: \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../core/models/Student.hpp \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../core/models/Course.hpp \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../core/models/Enrollment.hpp \
- /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../core/repositories/PmdRepository.hpp \
- /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../core/repositories/../Database.hpp \
- /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../../core/repositories/../models/PMDRecord.hpp \
- /usr/include/c++/13/set /usr/include/c++/13/bits/stl_tree.h \
- /usr/include/c++/13/bits/stl_set.h \
- /usr/include/c++/13/bits/stl_multiset.h \
  /home/yassin/WorkSpace/Projects/C++\ with\ Raylib/src/ui/screens/../ScreenType.hpp \
  /usr/include/c++/13/sstream /usr/include/c++/13/istream \
  /usr/include/c++/13/ios /usr/include/c++/13/bits/ios_base.h \
@@ -240,6 +229,4 @@ CMakeFiles/nctu_sis_client.dir/src/ui/screens/StudentDetailsScreen.cpp.o: \
  /usr/include/libintl.h /usr/include/c++/13/bits/codecvt.h \
  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
  /usr/include/c++/13/bits/locale_conv.h \
- /usr/include/c++/13/bits/quoted_string.h /usr/include/c++/13/map \
- /usr/include/c++/13/bits/stl_map.h \
- /usr/include/c++/13/bits/stl_multimap.h
+ /usr/include/c++/13/bits/quoted_string.h
